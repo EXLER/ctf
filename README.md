@@ -3,11 +3,22 @@
 
 ## Tools
 
+### Recon
+
+| Name | Download / Documentation | Cheat Sheet |
+| --- | --- | --- |
+| Maltego | [Official Site](https://www.maltego.com/) | *none* |
+| nmap | [Official Site](https://nmap.org/) | [nmap Cheat Sheet](Cheatsheets/nmap_cheat_sheet.pdf) |
+| DirBuster | [SourceForge](https://sourceforge.net/projects/dirbuster/) | *none* |
+| LinEnum | [Github](https://github.com/rebootuser/LinEnum) | *none* | 
+
 ### Exploits
 
-| Name | Usage / Documentation |
-| --- | --- |
-| pwntools | [Documentation](http://docs.pwntools.com/en/stable/) |
+Find software exploits on [Exploit Database](https://www.exploit-db.com/).
+
+| Name | Usage / Documentation | Cheat Sheet |
+| --- | --- | --- |
+| pwntools | [Documentation](http://docs.pwntools.com/en/stable/) | *none* |
 
 ## PHP
 
