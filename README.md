@@ -5,21 +5,33 @@
 
 ### Recon
 
-| Name | Download / Documentation | Cheat Sheet |
+| Name | Usage | Website |
 | --- | --- | --- |
-| Maltego | [Official Site](https://www.maltego.com/) | *none* |
-| sherlock | [Github](https://github.com/sherlock-project/sherlock) | *none* |
-| nmap | [Official Site](https://nmap.org/) | [nmap Cheat Sheet](Cheatsheets/nmap_cheat_sheet.pdf) |
-| DirBuster | [SourceForge](https://sourceforge.net/projects/dirbuster/) | *none* |
-| LinEnum | [Github](https://github.com/rebootuser/LinEnum) | *none* | 
+| Maltego | Graphical link analysis tool | [Official Site](https://www.maltego.com/) |
+| sherlock | Find social media accounts by username | [Github](https://github.com/sherlock-project/sherlock) |
+| nmap | Port scanning & network exploration | [Official Site](https://nmap.org/) |
+| DirBuster | Brute force directories and files names on servers | [SourceForge](https://sourceforge.net/projects/dirbuster/) |
+| LinEnum | Local Linux enumeration & privilege escalation checking  | [Github](https://github.com/rebootuser/LinEnum) |
+
+### Attacks
+
+| Name | Usage | Website |
+| --- | --- | --- |
+| bettercap | WiFi, BLE, wireless HID, Ethernet | [Documentation](https://www.bettercap.org/)
 
 ### Exploits
 
 Find software exploits on [Exploit Database](https://www.exploit-db.com/).
 
-| Name | Usage / Documentation | Cheat Sheet |
+| Name | Usage | Website |
 | --- | --- | --- |
-| pwntools | [Documentation](http://docs.pwntools.com/en/stable/) | *none* |
+| pwntools | CTF framework and exploit development library | [Documentation](http://docs.pwntools.com/en/stable/) |
+
+## Passwords
+
+### Dictionary attacks
+
+* Wordlists for dictionary attacks: [github.com/berzerk0/Probable-Wordlists](https://github.com/berzerk0/Probable-Wordlists)
 
 ## PHP
 
