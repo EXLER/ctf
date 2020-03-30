@@ -1,41 +1,75 @@
 # ctf
 🏴‍☠️ Tools, scripts and other stuff helpful in CTF challenges.
 
-## Tools
+## Recon
 
-### Recon
-
-| Name | Usage | Website |
+| Name | Description | Website |
 | --- | --- | --- |
 | Maltego | Graphical link analysis tool | [Official Site](https://www.maltego.com/) |
 | sherlock | Find social media accounts by username | [Github](https://github.com/sherlock-project/sherlock) |
 | nmap | Port scanning & network exploration | [Official Site](https://nmap.org/) |
-| DirBuster | Brute force directories and files names on servers | [SourceForge](https://sourceforge.net/projects/dirbuster/) |
+| Gobuster | Brute force directories and files names on servers | [Github](https://github.com/OJ/gobuster) |
 | LinEnum | Local Linux enumeration & privilege escalation checking  | [Github](https://github.com/rebootuser/LinEnum) |
 
-### Attacks
+## Attacks
 
-| Name | Usage | Website |
+| Name | Description | Website |
 | --- | --- | --- |
-| bettercap | WiFi, BLE, wireless HID, Ethernet | [Documentation](https://www.bettercap.org/)
+| bettercap | WiFi, BLE, wireless HID, Ethernet toolset | [Documentation](https://www.bettercap.org/)
 
-### Exploits
+## Exploits
 
 Find software exploits on [Exploit Database](https://www.exploit-db.com/).
 
-| Name | Usage | Website |
+| Name | Description | Website |
 | --- | --- | --- |
 | pwntools | CTF framework and exploit development library | [Documentation](http://docs.pwntools.com/en/stable/) |
 
+## Reverse engineering
+
+| Name | Description | Website |
+| --- | --- | --- |
+| Ghidra | Software reverse engineering suite of tools | [Official Site](https://ghidra-sre.org/) |
+
+## Web
+
+| Name | Description | Website |
+| --- | --- | --- |
+| Nikto2 | Web server scanner which performs comprehensive tests | [Github](https://github.com/sullo/nikto) |
+| WPScan | WordPress vulnerability scanner | [Offical Site](https://wpscan.org/) |
+| sqlmap | Automatic SQL injection and database takeover tool | [Github](https://github.com/sqlmapproject/sqlmap) |
+
+## Networking
+
+| Name | Description | Website |
+| --- | --- | --- |
+| WireShark | Examine packets in a network and in `.pcap` files | [Official Site](https://www.wireshark.org/) |
+
+## Android
+
+| Name | Description | Website |
+| --- | --- | --- |
+| Apktool | Reverse engineer Android APK files | [Official Site](https://ibotpeaches.github.io/Apktool/) |
+| dex2jar | Generate `.jar` file from `.dex` | [Github](https://github.com/pxb1988/dex2jar) |
+
 ## Passwords
+
+| Name | Description | Website |
+| --- | --- | --- |
+| Patator | Multi-purpose brute forcer | [Github](https://github.com/lanjelot/patator) |
+| John the Ripper | Password cracker | [Official Site](https://www.openwall.com/john/) |
+| Hashcat | Password cracker/recovery | [Official Site](https://hashcat.net/hashcat/)
 
 ### Dictionary attacks
 
 * Wordlists for dictionary attacks: [github.com/berzerk0/Probable-Wordlists](https://github.com/berzerk0/Probable-Wordlists)
+* Password & other types of wordlists: [github.com/danielmiessler/SecLists](https://github.com/danielmiessler/SecLists)
 
-## PHP
+## Programming Languages
 
-### Magic Hashes
+### PHP
+
+#### Magic Hashes
 
 Common vulnerability in PHP that fakes hash "collisions" where the == operator falls short in PHP type comparison, thinking everything that follows 0e is considered scientific notation (and therefore 0).
 
