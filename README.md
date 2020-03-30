@@ -8,6 +8,7 @@
 | Name | Download / Documentation | Cheat Sheet |
 | --- | --- | --- |
 | Maltego | [Official Site](https://www.maltego.com/) | *none* |
+| sherlock | [Github](https://github.com/sherlock-project/sherlock) | *none* |
 | nmap | [Official Site](https://nmap.org/) | [nmap Cheat Sheet](Cheatsheets/nmap_cheat_sheet.pdf) |
 | DirBuster | [SourceForge](https://sourceforge.net/projects/dirbuster/) | *none* |
 | LinEnum | [Github](https://github.com/rebootuser/LinEnum) | *none* | 
