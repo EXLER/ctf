@@ -5,7 +5,7 @@
 
 | Name | Description | Website |
 | --- | --- | --- |
-| Maltego | Graphical link analysis tool | [Official Site](https://www.maltego.com/) |
+| Recon-ng | Conduct open source web-based reconnaissance quickly and thoroughly | [Github](https://github.com/lanmaster53/recon-ng) |
 | sherlock | Find social media accounts by username | [Github](https://github.com/sherlock-project/sherlock) |
 | nmap | Port scanning & network exploration | [Official Site](https://nmap.org/) |
 | Gobuster | Brute force directories and files names on servers | [Github](https://github.com/OJ/gobuster) |
