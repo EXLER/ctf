@@ -31,6 +31,8 @@ Find software exploits on [Exploit Database](https://www.exploit-db.com/).
 | Name | Description | Website |
 | --- | --- | --- |
 | Ghidra | Software reverse engineering suite of tools | [Official Site](https://ghidra-sre.org/) |
+| strings | Display printable strings in files | `sudo apt install binutils` |
+| gdb | GNU debugger, allows you to see what is going on inside a program while it executes | `sudo apt install gdb` |
 
 ## Web
 
