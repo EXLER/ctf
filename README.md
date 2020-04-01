@@ -45,6 +45,26 @@ Find software exploits on [Exploit Database](https://www.exploit-db.com/).
 | --- | --- | --- |
 | WireShark | Examine packets in a network and in `.pcap` files | [Official Site](https://www.wireshark.org/) |
 
+## Esoteric Languages
+
+| Name | Description | Website |
+| --- | --- | --- |
+| Try It Online | Online interpreter that has tons of esoteric languages | [tio.run](https://tio.run/) |
+
+### Piet
+
+A graphical programming language in which programs look like abstract paintings. It uses 20 colors, of which 18 are related cyclically through a lightness cycle and a hue cycle.
+
+* Interpreter: [npiet](https://www.bertnase.de/npiet/)
+
+## Steganography
+
+| Name | Description | Website |
+| --- | --- | --- |
+| StegCracker | Brute-force utility to uncover hidden data inside files | [Github](https://github.com/Paradoxis/StegCracker) |
+| stegsolve.jar | View through different renditions of an image | [Direct Download](http://www.caesum.com/handbook/Stegsolve.jar) |
+| OpenStego | Hiding data and invisible file watermarking | [Official Site](https://www.openstego.com/) |
+
 ## Android
 
 | Name | Description | Website |
