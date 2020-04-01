@@ -6,6 +6,7 @@
 | Name | Description | Website |
 | --- | --- | --- |
 | Recon-ng | Conduct open source web-based reconnaissance quickly and thoroughly | [Github](https://github.com/lanmaster53/recon-ng) |
+| ZAP | Web application security scanner | [Official Site](https://www.zaproxy.org/) |
 | sherlock | Find social media accounts by username | [Github](https://github.com/sherlock-project/sherlock) |
 | nmap | Port scanning & network exploration | [Official Site](https://nmap.org/) |
 | Gobuster | Brute force directories and files names on servers | [Github](https://github.com/OJ/gobuster) |
