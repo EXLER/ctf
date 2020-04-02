@@ -34,6 +34,8 @@ Find software exploits on [Exploit Database](https://www.exploit-db.com/).
 | strings | Display printable strings in files | `sudo apt install binutils` |
 | gdb | GNU debugger, allows you to see what is going on inside a program while it executes | `sudo apt install gdb` |
 
+Use [pwndbg](https://github.com/pwndbg/pwndbg) with **gdb** to increase your efficiency!
+
 ## Web
 
 | Name | Description | Website |
@@ -41,8 +43,6 @@ Find software exploits on [Exploit Database](https://www.exploit-db.com/).
 | Nikto2 | Web server scanner which performs comprehensive tests | [Github](https://github.com/sullo/nikto) |
 | WPScan | WordPress vulnerability scanner | [Official Site](https://wpscan.org/) |
 | sqlmap | Automatic SQL injection and database takeover tool | [Github](https://github.com/sqlmapproject/sqlmap) |
-
-
 
 ## Networking
 
