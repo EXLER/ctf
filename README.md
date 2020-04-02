@@ -32,9 +32,15 @@ Find software exploits on [Exploit Database](https://www.exploit-db.com/).
 | --- | --- | --- |
 | Ghidra | Software reverse engineering suite of tools | [Official Site](https://ghidra-sre.org/) |
 | strings | Display printable strings in files | `sudo apt install binutils` |
-| gdb | GNU debugger, allows you to see what is going on inside a program while it executes | `sudo apt install gdb` |
+| gdb | GNU debugger, tinker with a program while it executes | `sudo apt install gdb` |
 
 Use [pwndbg](https://github.com/pwndbg/pwndbg) with **gdb** to increase your efficiency!
+
+### Random values
+
+When the seed is not given for the rand method, the seed will always be starting on 1. Therefore rand will always give the same answer when the method in only called once in the program.
+
+Not every OS/system has the same implementation of the rand function. Therefore you need to determine which random value will be generated on the server.
 
 ## Web
 
