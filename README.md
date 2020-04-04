@@ -33,6 +33,7 @@ Find software exploits on [Exploit Database](https://www.exploit-db.com/).
 | Ghidra | Software reverse engineering suite of tools | [Official Site](https://ghidra-sre.org/) |
 | strings | Display printable strings in files | `sudo apt install binutils` |
 | gdb | GNU debugger, tinker with a program while it executes | `sudo apt install gdb` |
+| ltrace | Library call tracer | `sudo apt install ltrace` |
 | uncompyle6 | Translate Python bytecode (`.pyc`) into Python code | [PyPI](https://pypi.org/project/uncompyle6/) 
 
 Use [pwndbg](https://github.com/pwndbg/pwndbg) with **gdb** to increase your efficiency!
