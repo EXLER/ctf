@@ -48,6 +48,7 @@ Not every OS/system has the same implementation of the rand function. Therefore 
 
 | Name | Description | Website |
 | --- | --- | --- |
+| Burp Suite | Graphical tool for testing webapps security | [Official Site](https://portswigger.net/burp) |
 | Nikto2 | Web server scanner which performs comprehensive tests | [Github](https://github.com/sullo/nikto) |
 | WPScan | WordPress vulnerability scanner | [Official Site](https://wpscan.org/) |
 | sqlmap | Automatic SQL injection and database takeover tool | [Github](https://github.com/sqlmapproject/sqlmap) |
