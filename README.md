@@ -140,3 +140,9 @@ Vigenère cipher has several Caesar ciphers in sequence with different shift val
 
 * Cipher explanation - [Wikipedia](https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher#Description)
 * Online cipher analysis & cracking - [f00l.de](http://f00l.de/hacking/vigenere.php)
+
+### Frequency analysis
+
+Frequency analysis is a technique used to break classical ciphers. Frequency analysis is based on the fact that, in any given stretch of written language, certain letters and combinations of letters occur with varying frequencies.
+
+* Online frequency analysis - [dcode.fr](https://www.dcode.fr/frequency-analysis)
