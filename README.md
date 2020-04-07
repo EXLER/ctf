@@ -123,3 +123,20 @@ The starting values that identify a file format. These are often crucial for pro
 
 * Magic numbers on Wikipedia: [Wikipedia](https://en.wikipedia.org/wiki/Magic_number_(programming)#Magic_numbers_in_files)
 * List of file signatures: [Wikipedia](https://en.wikipedia.org/wiki/List_of_file_signatures)
+
+## Cryptography
+
+### Caesar Cipher
+
+Classic shift cipher. Below is a bash one-liner using `caesar` (from package `bsdgames`) to try all shift positions.
+
+```bash
+$ cipher='jeoi{geiwev_gmtliv_ws_svmkmrep}' ; for i in {0..25}; do echo $cipher | caesar $i; done
+```
+
+### Vigenère Cipher
+
+Vigenère cipher has several Caesar ciphers in sequence with different shift values. 
+
+* Cipher explanation - [Wikipedia](https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher#Description)
+* Online cipher analysis & cracking - [f00l.de](http://f00l.de/hacking/vigenere.php)
