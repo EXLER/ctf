@@ -3,7 +3,7 @@
 
 ## Recon
 
-| Name | Description | Website |
+| Name | Description | Usage |
 | --- | --- | --- |
 | Recon-ng | Conduct open source web-based reconnaissance quickly and thoroughly | [Github](https://github.com/lanmaster53/recon-ng) |
 | sherlock | Find social media accounts by username | [Github](https://github.com/sherlock-project/sherlock) |
@@ -13,7 +13,7 @@
 
 ## Attacks
 
-| Name | Description | Website |
+| Name | Description | Usage |
 | --- | --- | --- |
 | bettercap | WiFi, BLE, wireless HID, Ethernet toolset | [Documentation](https://www.bettercap.org/) |
 
@@ -21,21 +21,26 @@
 
 Find software exploits on [Exploit Database](https://www.exploit-db.com/).
 
-| Name | Description | Website |
+| Name | Description | Usage |
 | --- | --- | --- |
 | pwntools | CTF framework and exploit development library | [Documentation](http://docs.pwntools.com/en/stable/) |
 
 ## Reverse engineering
 
-| Name | Description | Website |
-| --- | --- | --- |
-| Ghidra | Software reverse engineering suite of tools | [Official Site](https://ghidra-sre.org/) |
-| strings | Display printable strings in files | `sudo apt install binutils` |
-| gdb | GNU debugger, tinker with a program while it executes | `sudo apt install gdb` |
-| ltrace | Library call tracer | `sudo apt install ltrace` |
-| uncompyle6 | Translate Python bytecode (`.pyc`) into Python code | [PyPI](https://pypi.org/project/uncompyle6/) 
+| Name | Description | Usage | Notes |
+| --- | --- | --- | --- |
+| Ghidra | Software reverse engineering suite of tools | [Official Site](https://ghidra-sre.org/) | |
+| strings | Display printable strings in files | `sudo apt install binutils` | |
+| gdb | GNU debugger | `sudo apt install gdb` | Plugins: [pwndbg](https://github.com/pwndbg/pwndbg) |
+| ltrace | Library call tracer | `sudo apt install ltrace` | |
+| uncompyle6 | Translate Python bytecode (`.pyc`) into Python code | [PyPI](https://pypi.org/project/uncompyle6/) | |
 
-Use [pwndbg](https://github.com/pwndbg/pwndbg) with **gdb** to increase your efficiency!
+### Shellcode
+
+Shellcode is a small piece of code used as the payload in the exploitation of a software vulnerability.
+
+* Shellcodes database - [shell-storm.org](http://shell-storm.org/shellcode/)
+* Shellcode generation using `pwntools` - [Documentation](https://docs.pwntools.com/en/stable/shellcraft.html)
 
 ### Random values
 
@@ -45,7 +50,7 @@ Not every OS/system has the same implementation of the rand function. Therefore 
 
 ## Web
 
-| Name | Description | Website |
+| Name | Description | Usage |
 | --- | --- | --- |
 | ZAP | Web application security scanner | [Official Site](https://www.zaproxy.org/) |
 | Nikto2 | Web server scanner which performs comprehensive tests | [Github](https://github.com/sullo/nikto) |
@@ -54,14 +59,14 @@ Not every OS/system has the same implementation of the rand function. Therefore 
 
 ## Networking
 
-| Name | Description | Website |
+| Name | Description | Usage |
 | --- | --- | --- |
 | WireShark | Examine packets in a network and in `.pcap` files | [Official Site](https://www.wireshark.org/) |
 | NetworkMiner | Extract files, images and other useful data from `.pcap` files | [Official Site](https://www.netresec.com/index.ashx?page=NetworkMiner) |
 
 ## Esoteric Languages
 
-| Name | Description | Website |
+| Name | Description | Usage |
 | --- | --- | --- |
 | Try It Online | Online interpreter that has tons of esoteric languages | [tio.run](https://tio.run/) |
 
@@ -73,22 +78,23 @@ A graphical programming language in which programs look like abstract paintings.
 
 ## Steganography
 
-| Name | Description | Website |
+| Name | Description | Usage |
 | --- | --- | --- |
 | StegCracker | Brute-force utility to uncover hidden data inside files | [Github](https://github.com/Paradoxis/StegCracker) |
 | stegsolve.jar | View through different renditions of an image | [Direct Download](http://www.caesum.com/handbook/Stegsolve.jar) |
 | OpenStego | Hiding data and invisible file watermarking | [Official Site](https://www.openstego.com/) |
+| Steganography Online | Message decoding service for low-hanging-fruits | [Website](http://stylesuxx.github.io/steganography/)
 
 ## Android
 
-| Name | Description | Website |
+| Name | Description | Usage |
 | --- | --- | --- |
 | Apktool | Reverse engineer Android APK files | [Official Site](https://ibotpeaches.github.io/Apktool/) |
 | dex2jar | Generate `.jar` file from `.dex` | [Github](https://github.com/pxb1988/dex2jar) |
 
 ## Passwords
 
-| Name | Description | Website |
+| Name | Description | Usage |
 | --- | --- | --- |
 | Patator | Multi-purpose brute forcer | [Github](https://github.com/lanjelot/patator) |
 | John the Ripper | Password cracker | [Official Site](https://www.openwall.com/john/) |
@@ -111,10 +117,11 @@ Common vulnerability in PHP that fakes hash "collisions" where the == operator f
 
 ## Forensics
 
-| Name | Description | Website |
+| Name | Description | Usage |
 | --- | --- | --- |
 | binwalk | Analyzing, reverse engineering, and extracting firmware images | [Github](https://github.com/ReFirmLabs/binwalk) |
-| TestDisk | Data recovery software, useful for `.img` or `.dd` files | [Official Site](https://www.cgsecurity.org/wiki/TestDisk)
+| TestDisk | Data recovery software, useful for `.img` or `.dd` files | [Official Site](https://www.cgsecurity.org/wiki/TestDisk) |
+| FotoForensics | Forensic analysis on images | [Website](http://fotoforensics.com/)
 
 ### Magic numbers
 
@@ -145,3 +152,9 @@ Vigenère cipher has several Caesar ciphers in sequence with different shift val
 Frequency analysis is a technique used to break classical ciphers. Frequency analysis is based on the fact that, in any given stretch of written language, certain letters and combinations of letters occur with varying frequencies.
 
 * Online frequency analysis - [dcode.fr](https://www.dcode.fr/frequency-analysis)
+
+## Substitution cipher
+
+Substitution cipher is a method of encrypting by which units of plaintext are replaced with ciphertext, according to a fixed system; the "units" may be single letters (the most common), pairs of letters, triplets of letters, mixtures of the above, and so forth. The receiver deciphers the text by performing the inverse substitution. 
+
+* Online cipher solver - [quipqiup.com](https://quipqiup.com/)
