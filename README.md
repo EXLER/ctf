@@ -6,7 +6,6 @@
 | Name | Description | Website |
 | --- | --- | --- |
 | Recon-ng | Conduct open source web-based reconnaissance quickly and thoroughly | [Github](https://github.com/lanmaster53/recon-ng) |
-| ZAP | Web application security scanner | [Official Site](https://www.zaproxy.org/) |
 | sherlock | Find social media accounts by username | [Github](https://github.com/sherlock-project/sherlock) |
 | nmap | Port scanning & network exploration | [Official Site](https://nmap.org/) |
 | Gobuster | Brute force directories and files names on servers | [Github](https://github.com/OJ/gobuster) |
@@ -48,7 +47,7 @@ Not every OS/system has the same implementation of the rand function. Therefore 
 
 | Name | Description | Website |
 | --- | --- | --- |
-| Burp Suite | Graphical tool for testing webapps security | [Official Site](https://portswigger.net/burp) |
+| ZAP | Web application security scanner | [Official Site](https://www.zaproxy.org/) |
 | Nikto2 | Web server scanner which performs comprehensive tests | [Github](https://github.com/sullo/nikto) |
 | WPScan | WordPress vulnerability scanner | [Official Site](https://wpscan.org/) |
 | sqlmap | Automatic SQL injection and database takeover tool | [Github](https://github.com/sqlmapproject/sqlmap) |
