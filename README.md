@@ -81,6 +81,7 @@ A graphical programming language in which programs look like abstract paintings.
 
 | Name | Description | Usage |
 | --- | --- | --- |
+| steghide | Hide and extract data from image and audio files | [SourceForge](http://steghide.sourceforge.net/) |
 | StegCracker | Brute-force utility to uncover hidden data inside files | [Github](https://github.com/Paradoxis/StegCracker) |
 | stegsolve.jar | View through different renditions of an image | [Direct Download](http://www.caesum.com/handbook/Stegsolve.jar) |
 | OpenStego | Hiding data and invisible file watermarking | [Official Site](https://www.openstego.com/) |
