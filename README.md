@@ -92,7 +92,9 @@ A graphical programming language in which programs look like abstract paintings.
 | Name | Description | Usage |
 | --- | --- | --- |
 | Apktool | Reverse engineer Android APK files | [Official Site](https://ibotpeaches.github.io/Apktool/) |
+| JADX | Dex to Java decompiler | [Github](https://github.com/skylot/jadx) |
 | dex2jar | Generate `.jar` file from `.dex` | [Github](https://github.com/pxb1988/dex2jar) |
+| Frida | Reverse engineering toolkit for iOS and Android | [Official Site](https://frida.re)
 
 ## Passwords
 
