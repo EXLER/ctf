@@ -35,7 +35,8 @@ Find software exploits on [Exploit Database](https://www.exploit-db.com/).
 | gdb | GNU debugger | `sudo apt install gdb` | Plugins: [pwndbg](https://github.com/pwndbg/pwndbg), [GDB dashboard](https://github.com/cyrus-and/gdb-dashboard) |
 | ltrace | Library call tracer | `sudo apt install ltrace` | |
 | uncompyle6 | Translate Python bytecode (`.pyc`) into Python code | [PyPI](https://pypi.org/project/uncompyle6/) | |
-| dnSpy | .NET and Unity debugger and assembly editor | [Github](https://github.com/0xd4d/dnSpy) | | 
+| dnSpy | .NET and Unity debugger and assembly editor | [Github](https://github.com/0xd4d/dnSpy) | |
+| AssetStudio | Explore, extract and export Unity assets and assetbundes | [Github](https://github.com/Perfare/AssetStudio) | |
 
 ### Shellcode
 
