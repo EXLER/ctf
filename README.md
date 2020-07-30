@@ -10,7 +10,13 @@
 | nmap | Port scanning & network exploration | [Official Site](https://nmap.org/) |
 | Gobuster | Brute force directories and files names on servers | [Github](https://github.com/OJ/gobuster) |
 | subfinder | Subdomain discovery tool using passive online sources | [Github](https://github.com/projectdiscovery/subfinder) |
-| LinEnum | Local Linux enumeration & privilege escalation checking  | [Github](https://github.com/rebootuser/LinEnum) |
+
+## Enumaration & privilege escalation
+
+| Name | Description | Usage |
+| --- | --- | --- |
+| LinEnum | Local Linux enumeration & privilege escalation checking | [Github](https://github.com/rebootuser/LinEnum) |
+| PEASS | Privilege escalation tools for Windows and Linux/Unix | [Github](https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite) |
 
 ## Attacks
 
