@@ -146,6 +146,10 @@ The starting values that identify a file format. These are often crucial for pro
 
 ## Cryptography
 
+| Name | Description | Usage |
+| --- | --- | --- |
+| Ciphey | Decrypt keys and ciphers automatically, without knowing the cipher | [Github](https://github.com/Ciphey/Ciphey) |
+
 ### Caesar Cipher
 
 Classic shift cipher. Below is a bash one-liner using `caesar` (from package `bsdgames`) to try all shift positions.
