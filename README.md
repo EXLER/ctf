@@ -11,6 +11,7 @@
 | Gobuster | Brute force directories and files names on servers | [Github](https://github.com/OJ/gobuster) |
 | subfinder | Subdomain discovery tool using passive online sources | [Github](https://github.com/projectdiscovery/subfinder) |
 | git-dumper | Dump `.git` repository from a website | [Github](https://github.com/arthaud/git-dumper) |
+| PhoneInfoga | Information gathering for phone numbers | [Github](https://github.com/sundowndev/PhoneInfoga) | 
 
 ## Enumaration & privilege escalation
 
