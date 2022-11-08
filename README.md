@@ -1,7 +1,13 @@
 # ctf
 🏴‍☠️ Tools, scripts and other stuff helpful in CTF challenges.
 
-## Recon
+## Articles/tutorials
+
+* [Awesome Web Security](https://github.com/qazbnm456/awesome-web-security/blob/master/README.md) - list of all things related with web security 
+
+## Tools 
+
+### Recon
 
 | Name | Description | Usage |
 | --- | --- | --- |
@@ -13,20 +19,20 @@
 | git-dumper | Dump `.git` repository from a website | [Github](https://github.com/arthaud/git-dumper) |
 | PhoneInfoga | Information gathering for phone numbers | [Github](https://github.com/sundowndev/PhoneInfoga) | 
 
-## Enumaration & privilege escalation
+### Enumaration & privilege escalation
 
 | Name | Description | Usage |
 | --- | --- | --- |
 | LinEnum | Local Linux enumeration & privilege escalation checking | [Github](https://github.com/rebootuser/LinEnum) |
 | PEASS | Privilege escalation tools for Windows and Linux/Unix | [Github](https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite) |
 
-## Attacks
+### Attacks
 
 | Name | Description | Usage |
 | --- | --- | --- |
 | bettercap | WiFi, BLE, wireless HID, Ethernet toolset | [Documentation](https://www.bettercap.org/) |
 
-## Exploits
+### Exploits
 
 Find software exploits on [Exploit Database](https://www.exploit-db.com/).
 
@@ -34,7 +40,7 @@ Find software exploits on [Exploit Database](https://www.exploit-db.com/).
 | --- | --- | --- |
 | pwntools | CTF framework and exploit development library | [Documentation](http://docs.pwntools.com/en/stable/) |
 
-## Reverse engineering
+### Reverse engineering
 
 | Name | Description | Usage | Notes |
 | --- | --- | --- | --- |
@@ -47,20 +53,20 @@ Find software exploits on [Exploit Database](https://www.exploit-db.com/).
 | dnSpy | .NET and Unity debugger and assembly editor | [Github](https://github.com/0xd4d/dnSpy) | |
 | AssetStudio | Explore, extract and export Unity assets and assetbundes | [Github](https://github.com/Perfare/AssetStudio) | |
 
-### Shellcode
+#### Shellcode
 
 Shellcode is a small piece of code used as the payload in the exploitation of a software vulnerability.
 
 * Shellcodes database - [shell-storm.org](http://shell-storm.org/shellcode/)
 * Shellcode generation using `pwntools` - [Documentation](https://docs.pwntools.com/en/stable/shellcraft.html)
 
-### Random values
+#### Random values
 
 When the seed is not given for the rand method, the seed will always be starting on 1. Therefore rand will always give the same answer when the method in only called once in the program.
 
 Not every OS/system has the same implementation of the rand function. Therefore you need to determine which random value will be generated on the server.
 
-## Web
+### Web
 
 | Name | Description | Usage |
 | --- | --- | --- |
@@ -69,26 +75,14 @@ Not every OS/system has the same implementation of the rand function. Therefore 
 | WPScan | WordPress vulnerability scanner | [Official Site](https://wpscan.org/) |
 | sqlmap | Automatic SQL injection and database takeover tool | [Github](https://github.com/sqlmapproject/sqlmap) |
 
-## Networking
+### Networking
 
 | Name | Description | Usage |
 | --- | --- | --- |
 | WireShark | Examine packets in a network and in `.pcap` files | [Official Site](https://www.wireshark.org/) |
 | NetworkMiner | Extract files, images and other useful data from `.pcap` files | [Official Site](https://www.netresec.com/index.ashx?page=NetworkMiner) |
 
-## Esoteric Languages
-
-| Name | Description | Usage |
-| --- | --- | --- |
-| Try It Online | Online interpreter that has tons of esoteric languages | [tio.run](https://tio.run/) |
-
-### Piet
-
-A graphical programming language in which programs look like abstract paintings. It uses 20 colors, of which 18 are related cyclically through a lightness cycle and a hue cycle.
-
-* Interpreter: [npiet](https://www.bertnase.de/npiet/)
-
-## Steganography
+### Steganography
 
 | Name | Description | Usage |
 | --- | --- | --- |
@@ -98,7 +92,9 @@ A graphical programming language in which programs look like abstract paintings.
 | OpenStego | Hiding data and invisible file watermarking | [Official Site](https://www.openstego.com/) |
 | Steganography Online | Message decoding service for low-hanging-fruits | [Website](http://stylesuxx.github.io/steganography/)
 
-## Android
+### Mobile
+
+#### Android
 
 | Name | Description | Usage |
 | --- | --- | --- |
@@ -107,7 +103,7 @@ A graphical programming language in which programs look like abstract paintings.
 | dex2jar | Generate `.jar` file from `.dex` | [Github](https://github.com/pxb1988/dex2jar) |
 | Frida | Reverse engineering toolkit for iOS and Android | [Official Site](https://frida.re)
 
-## Passwords
+### Passwords
 
 | Name | Description | Usage |
 | --- | --- | --- |
@@ -115,22 +111,34 @@ A graphical programming language in which programs look like abstract paintings.
 | John the Ripper | Password cracker | [Official Site](https://www.openwall.com/john/) |
 | Hashcat | Password cracker/recovery | [Official Site](https://hashcat.net/hashcat/) |
 
-### Dictionary attacks
+#### Dictionary attacks
 
 * Wordlists for dictionary attacks: [github.com/berzerk0/Probable-Wordlists](https://github.com/berzerk0/Probable-Wordlists)
 * Password & other types of wordlists: [github.com/danielmiessler/SecLists](https://github.com/danielmiessler/SecLists)
 
-## Programming Languages
+### Programming Languages
 
-### PHP
+#### PHP
 
-#### Magic Hashes
+##### Magic Hashes
 
 Common vulnerability in PHP that fakes hash "collisions" where the == operator falls short in PHP type comparison, thinking everything that follows 0e is considered scientific notation (and therefore 0).
 
 * More information: [github.com/spaze/hashes](https://github.com/spaze/hashes)
 
-## Forensics
+#### Esoteric Languages
+
+| Name | Description | Usage |
+| --- | --- | --- |
+| Try It Online | Online interpreter that has tons of esoteric languages | [tio.run](https://tio.run/) |
+
+##### Piet
+
+A graphical programming language in which programs look like abstract paintings. It uses 20 colors, of which 18 are related cyclically through a lightness cycle and a hue cycle.
+
+* Interpreter: [npiet](https://www.bertnase.de/npiet/)
+
+### Forensics
 
 | Name | Description | Usage |
 | --- | --- | --- |
@@ -138,20 +146,20 @@ Common vulnerability in PHP that fakes hash "collisions" where the == operator f
 | TestDisk | Data recovery software, useful for `.img` or `.dd` files | [Official Site](https://www.cgsecurity.org/wiki/TestDisk) |
 | FotoForensics | Forensic analysis on images | [Website](http://fotoforensics.com/)
 
-### Magic numbers
+#### Magic numbers
 
 The starting values that identify a file format. These are often crucial for programs to properly read a certain file type, so they must be correct. If some files are acting strangely, try verifying their magic number with a trusted list of file signatures.
 
 * Magic numbers on Wikipedia: [Wikipedia](https://en.wikipedia.org/wiki/Magic_number_(programming)#Magic_numbers_in_files)
 * List of file signatures: [Wikipedia](https://en.wikipedia.org/wiki/List_of_file_signatures)
 
-## Cryptography
+### Cryptography
 
 | Name | Description | Usage |
 | --- | --- | --- |
 | Ciphey | Decrypt keys and ciphers automatically, without knowing the cipher | [Github](https://github.com/Ciphey/Ciphey) |
 
-### Caesar Cipher
+#### Caesar Cipher
 
 Classic shift cipher. Below is a bash one-liner using `caesar` (from package `bsdgames`) to try all shift positions.
 
@@ -159,26 +167,26 @@ Classic shift cipher. Below is a bash one-liner using `caesar` (from package `bs
 $ cipher='jeoi{geiwev_gmtliv_ws_svmkmrep}' ; for i in {0..25}; do echo $cipher | caesar $i; done
 ```
 
-### Vigenère Cipher
+#### Vigenère Cipher
 
 Vigenère cipher has several Caesar ciphers in sequence with different shift values. 
 
 * Cipher explanation - [Wikipedia](https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher#Description)
 * Online cipher analysis & cracking - [f00l.de](http://f00l.de/hacking/vigenere.php)
 
-### Frequency analysis
+#### Frequency analysis
 
 Frequency analysis is a technique used to break classical ciphers. Frequency analysis is based on the fact that, in any given stretch of written language, certain letters and combinations of letters occur with varying frequencies.
 
 * Online frequency analysis - [dcode.fr](https://www.dcode.fr/frequency-analysis)
 
-## Substitution cipher
+#### Substitution cipher
 
 Substitution cipher is a method of encrypting by which units of plaintext are replaced with ciphertext, according to a fixed system; the "units" may be single letters (the most common), pairs of letters, triplets of letters, mixtures of the above, and so forth. The receiver deciphers the text by performing the inverse substitution. 
 
 * Online cipher solver - [quipqiup.com](https://quipqiup.com/)
 
-## RSA
+#### RSA
 
 | Name | Description | Usage |
 | --- | --- | --- |
