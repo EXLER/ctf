@@ -3,10 +3,13 @@
 
 ## Articles/tutorials
 
+* [CTF-Katana](https://github.com/johnhammond/ctf-katana) - list of suggestions for CTF challenges 
 * [Awesome Web Security](https://github.com/qazbnm456/awesome-web-security/blob/master/README.md) - list of all things related with web security 
-* [Payload All The Things](https://github.com/swisskyrepo/PayloadsAllTheThings) - useful payloads and bypasses 
+* [Payload All The Things](https://github.com/swisskyrepo/PayloadsAllTheThings) - useful payloads and bypasses
 
-## Tools 
+## Tools
+
+[Katana](https://github.com/JohnHammond/katana) - Automatic CTF Challenge Solver
 
 ### Recon
 
@@ -24,6 +27,7 @@
 
 | Name | Description | Usage |
 | --- | --- | --- |
+| Traitor | Automatic Linux privesc via exploitation of low-hanging fruit | [Github](https://github.com/liamg/traitor) |
 | LinEnum | Local Linux enumeration & privilege escalation checking | [Github](https://github.com/rebootuser/LinEnum) |
 | PEASS | Privilege escalation tools for Windows and Linux/Unix | [Github](https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite) |
 
