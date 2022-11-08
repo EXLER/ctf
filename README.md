@@ -4,6 +4,7 @@
 ## Articles/tutorials
 
 * [Awesome Web Security](https://github.com/qazbnm456/awesome-web-security/blob/master/README.md) - list of all things related with web security 
+* [Payload All The Things](https://github.com/swisskyrepo/PayloadsAllTheThings) - useful payloads and bypasses 
 
 ## Tools 
 
