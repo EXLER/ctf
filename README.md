@@ -21,7 +21,8 @@
 | Gobuster | Brute force directories and files names on servers | [Github](https://github.com/OJ/gobuster) |
 | subfinder | Subdomain discovery tool using passive online sources | [Github](https://github.com/projectdiscovery/subfinder) |
 | git-dumper | Dump `.git` repository from a website | [Github](https://github.com/arthaud/git-dumper) |
-| PhoneInfoga | Information gathering for phone numbers | [Github](https://github.com/sundowndev/PhoneInfoga) | 
+| PhoneInfoga | Information gathering for phone numbers | [Github](https://github.com/sundowndev/PhoneInfoga) |
+| Shodan | Search engine that lets users search for various types of servers | [shodan.io](https://www.shodan.io/dashboard) |
 
 ### Enumaration & privilege escalation
 
@@ -44,6 +45,7 @@ Find software exploits on [Exploit Database](https://www.exploit-db.com/).
 | Name | Description | Usage |
 | --- | --- | --- |
 | pwntools | CTF framework and exploit development library | [Documentation](http://docs.pwntools.com/en/stable/) |
+| GTFOBins | List of Unix binaries that can be used to bypass local security restrictions in misconfigured systems | [gtfobins.github.io](https://gtfobins.github.io/)
 
 ### Reverse engineering
 
@@ -95,7 +97,8 @@ Not every OS/system has the same implementation of the rand function. Therefore 
 | StegCracker | Brute-force utility to uncover hidden data inside files | [Github](https://github.com/Paradoxis/StegCracker) |
 | stegsolve.jar | View through different renditions of an image | [Direct Download](http://www.caesum.com/handbook/Stegsolve.jar) |
 | OpenStego | Hiding data and invisible file watermarking | [Official Site](https://www.openstego.com/) |
-| Steganography Online | Message decoding service for low-hanging-fruits | [Website](http://stylesuxx.github.io/steganography/)
+| Steganography Online | Message decoding service for low-hanging-fruits | [Website](http://stylesuxx.github.io/steganography/) |
+| Forensically | Set of free tools for digital image forensics | [Website](https://29a.ch/photo-forensics) |
 
 ### Mobile
 
@@ -147,6 +150,7 @@ A graphical programming language in which programs look like abstract paintings.
 
 | Name | Description | Usage |
 | --- | --- | --- |
+| binvis.io | Visual analysis of binary files | [binvis.io](http://binvis.io/#/) |
 | binwalk | Analyzing, reverse engineering, and extracting firmware images | [Github](https://github.com/ReFirmLabs/binwalk) |
 | TestDisk | Data recovery software, useful for `.img` or `.dd` files | [Official Site](https://www.cgsecurity.org/wiki/TestDisk) |
 | FotoForensics | Forensic analysis on images | [Website](http://fotoforensics.com/)
