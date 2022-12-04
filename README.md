@@ -13,52 +13,52 @@
 
 ### Recon
 
-| Name | Description | Usage |
-| --- | --- | --- |
-| Recon-ng | Conduct open source web-based reconnaissance quickly and thoroughly | [Github](https://github.com/lanmaster53/recon-ng) |
-| sherlock | Find social media accounts by username | [Github](https://github.com/sherlock-project/sherlock) |
-| nmap | Port scanning & network exploration | [Official Site](https://nmap.org/) |
-| Gobuster | Brute force directories and files names on servers | [Github](https://github.com/OJ/gobuster) |
-| subfinder | Subdomain discovery tool using passive online sources | [Github](https://github.com/projectdiscovery/subfinder) |
-| git-dumper | Dump `.git` repository from a website | [Github](https://github.com/arthaud/git-dumper) |
-| PhoneInfoga | Information gathering for phone numbers | [Github](https://github.com/sundowndev/PhoneInfoga) |
-| Shodan | Search engine that lets users search for various types of servers | [shodan.io](https://www.shodan.io/dashboard) |
+| Name        | Description                                                         | Usage                                                   |
+| ----------- | ------------------------------------------------------------------- | ------------------------------------------------------- |
+| Recon-ng    | Conduct open source web-based reconnaissance quickly and thoroughly | [Github](https://github.com/lanmaster53/recon-ng)       |
+| sherlock    | Find social media accounts by username                              | [Github](https://github.com/sherlock-project/sherlock)  |
+| nmap        | Port scanning & network exploration                                 | [Official Site](https://nmap.org/)                      |
+| Gobuster    | Brute force directories and files names on servers                  | [Github](https://github.com/OJ/gobuster)                |
+| subfinder   | Subdomain discovery tool using passive online sources               | [Github](https://github.com/projectdiscovery/subfinder) |
+| git-dumper  | Dump `.git` repository from a website                               | [Github](https://github.com/arthaud/git-dumper)         |
+| PhoneInfoga | Information gathering for phone numbers                             | [Github](https://github.com/sundowndev/PhoneInfoga)     |
+| Shodan      | Search engine that lets users search for various types of servers   | [shodan.io](https://www.shodan.io/dashboard)            |
 
 ### Enumaration & privilege escalation
 
-| Name | Description | Usage |
-| --- | --- | --- |
-| Traitor | Automatic Linux privesc via exploitation of low-hanging fruit | [Github](https://github.com/liamg/traitor) |
-| LinEnum | Local Linux enumeration & privilege escalation checking | [Github](https://github.com/rebootuser/LinEnum) |
-| PEASS | Privilege escalation tools for Windows and Linux/Unix | [Github](https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite) |
+| Name    | Description                                                   | Usage                                                                               |
+| ------- | ------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
+| Traitor | Automatic Linux privesc via exploitation of low-hanging fruit | [Github](https://github.com/liamg/traitor)                                          |
+| LinEnum | Local Linux enumeration & privilege escalation checking       | [Github](https://github.com/rebootuser/LinEnum)                                     |
+| PEASS   | Privilege escalation tools for Windows and Linux/Unix         | [Github](https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite) |
 
 ### Attacks
 
-| Name | Description | Usage |
-| --- | --- | --- |
+| Name      | Description                               | Usage                                       |
+| --------- | ----------------------------------------- | ------------------------------------------- |
 | bettercap | WiFi, BLE, wireless HID, Ethernet toolset | [Documentation](https://www.bettercap.org/) |
 
 ### Exploits
 
 Find software exploits on [Exploit Database](https://www.exploit-db.com/).
 
-| Name | Description | Usage |
-| --- | --- | --- |
-| pwntools | CTF framework and exploit development library | [Documentation](http://docs.pwntools.com/en/stable/) |
-| GTFOBins | List of Unix binaries that can be used to bypass local security restrictions in misconfigured systems | [gtfobins.github.io](https://gtfobins.github.io/)
+| Name     | Description                                                                                           | Usage                                                |
+| -------- | ----------------------------------------------------------------------------------------------------- | ---------------------------------------------------- |
+| pwntools | CTF framework and exploit development library                                                         | [Documentation](http://docs.pwntools.com/en/stable/) |
+| GTFOBins | List of Unix binaries that can be used to bypass local security restrictions in misconfigured systems | [gtfobins.github.io](https://gtfobins.github.io/)    |
 
 ### Reverse engineering
 
-| Name | Description | Usage | Notes |
-| --- | --- | --- | --- |
-| Ghidra | Software reverse engineering suite of tools | [Official Site](https://ghidra-sre.org/) | |
-| strings | Display printable strings in files | `sudo apt install binutils` | |
-| hexdump | Dump file contents as hexadecimal values | Pre-installed | `hexdump -C` shows hex and ASCII side-by-side |
-| gdb | GNU debugger | `sudo apt install gdb` | Plugins: [pwndbg](https://github.com/pwndbg/pwndbg), [GDB dashboard](https://github.com/cyrus-and/gdb-dashboard) |
-| ltrace | Library call tracer | `sudo apt install ltrace` | |
-| uncompyle6 | Translate Python bytecode (`.pyc`) into Python code | [PyPI](https://pypi.org/project/uncompyle6/) | |
-| dnSpy | .NET and Unity debugger and assembly editor | [Github](https://github.com/0xd4d/dnSpy) | |
-| AssetStudio | Explore, extract and export Unity assets and assetbundes | [Github](https://github.com/Perfare/AssetStudio) | |
+| Name        | Description                                              | Usage                                            | Notes                                                                                                            |
+| ----------- | -------------------------------------------------------- | ------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------- |
+| Ghidra      | Software reverse engineering suite of tools              | [Official Site](https://ghidra-sre.org/)         |                                                                                                                  |
+| strings     | Display printable strings in files                       | `sudo apt install binutils`                      |                                                                                                                  |
+| hexdump     | Dump file contents as hexadecimal values                 | Pre-installed                                    | `hexdump -C` shows hex and ASCII side-by-side                                                                    |
+| gdb         | GNU debugger                                             | `sudo apt install gdb`                           | Plugins: [pwndbg](https://github.com/pwndbg/pwndbg), [GDB dashboard](https://github.com/cyrus-and/gdb-dashboard) |
+| ltrace      | Library call tracer                                      | `sudo apt install ltrace`                        |                                                                                                                  |
+| uncompyle6  | Translate Python bytecode (`.pyc`) into Python code      | [PyPI](https://pypi.org/project/uncompyle6/)     |                                                                                                                  |
+| dnSpy       | .NET and Unity debugger and assembly editor              | [Github](https://github.com/0xd4d/dnSpy)         |                                                                                                                  |
+| AssetStudio | Explore, extract and export Unity assets and assetbundes | [Github](https://github.com/Perfare/AssetStudio) |                                                                                                                  |
 
 #### Shellcode
 
@@ -75,49 +75,38 @@ Not every OS/system has the same implementation of the rand function. Therefore 
 
 ### Web
 
-| Name | Description | Usage |
-| --- | --- | --- |
-| ZAP | Web application security scanner | [Official Site](https://www.zaproxy.org/) |
-| Nikto2 | Web server scanner which performs comprehensive tests | [Github](https://github.com/sullo/nikto) |
-| WPScan | WordPress vulnerability scanner | [Official Site](https://wpscan.org/) |
-| sqlmap | Automatic SQL injection and database takeover tool | [Github](https://github.com/sqlmapproject/sqlmap) |
+| Name   | Description                                           | Usage                                             |
+| ------ | ----------------------------------------------------- | ------------------------------------------------- |
+| ZAP    | Web application security scanner                      | [Official Site](https://www.zaproxy.org/)         |
+| Nikto2 | Web server scanner which performs comprehensive tests | [Github](https://github.com/sullo/nikto)          |
+| WPScan | WordPress vulnerability scanner                       | [Official Site](https://wpscan.org/)              |
+| sqlmap | Automatic SQL injection and database takeover tool    | [Github](https://github.com/sqlmapproject/sqlmap) |
 
 ### Networking
 
-| Name | Description | Usage |
-| --- | --- | --- |
-| WireShark | Examine packets in a network and in `.pcap` files | [Official Site](https://www.wireshark.org/) |
+| Name         | Description                                                    | Usage                                                                  |
+| ------------ | -------------------------------------------------------------- | ---------------------------------------------------------------------- |
+| WireShark    | Examine packets in a network and in `.pcap` files              | [Official Site](https://www.wireshark.org/)                            |
 | NetworkMiner | Extract files, images and other useful data from `.pcap` files | [Official Site](https://www.netresec.com/index.ashx?page=NetworkMiner) |
-
-### Steganography
-
-| Name | Description | Usage |
-| --- | --- | --- |
-| steghide | Hide and extract data from image and audio files | [SourceForge](http://steghide.sourceforge.net/) |
-| StegCracker | Brute-force utility to uncover hidden data inside files | [Github](https://github.com/Paradoxis/StegCracker) |
-| stegsolve.jar | View through different renditions of an image | [Direct Download](http://www.caesum.com/handbook/Stegsolve.jar) |
-| OpenStego | Hiding data and invisible file watermarking | [Official Site](https://www.openstego.com/) |
-| Steganography Online | Message decoding service for low-hanging-fruits | [Website](http://stylesuxx.github.io/steganography/) |
-| Forensically | Set of free tools for digital image forensics | [Website](https://29a.ch/photo-forensics) |
 
 ### Mobile
 
 #### Android
 
-| Name | Description | Usage |
-| --- | --- | --- |
-| Apktool | Reverse engineer Android APK files | [Official Site](https://ibotpeaches.github.io/Apktool/) |
-| JADX | Dex to Java decompiler | [Github](https://github.com/skylot/jadx) |
-| dex2jar | Generate `.jar` file from `.dex` | [Github](https://github.com/pxb1988/dex2jar) |
-| Frida | Reverse engineering toolkit for iOS and Android | [Official Site](https://frida.re)
+| Name    | Description                                     | Usage                                                   |
+| ------- | ----------------------------------------------- | ------------------------------------------------------- |
+| Apktool | Reverse engineer Android APK files              | [Official Site](https://ibotpeaches.github.io/Apktool/) |
+| JADX    | Dex to Java decompiler                          | [Github](https://github.com/skylot/jadx)                |
+| dex2jar | Generate `.jar` file from `.dex`                | [Github](https://github.com/pxb1988/dex2jar)            |
+| Frida   | Reverse engineering toolkit for iOS and Android | [Official Site](https://frida.re)                       |
 
 ### Passwords
 
-| Name | Description | Usage |
-| --- | --- | --- |
-| Patator | Multi-purpose brute forcer | [Github](https://github.com/lanjelot/patator) |
-| John the Ripper | Password cracker | [Official Site](https://www.openwall.com/john/) |
-| Hashcat | Password cracker/recovery | [Official Site](https://hashcat.net/hashcat/) |
+| Name            | Description                | Usage                                           |
+| --------------- | -------------------------- | ----------------------------------------------- |
+| Patator         | Multi-purpose brute forcer | [Github](https://github.com/lanjelot/patator)   |
+| John the Ripper | Password cracker           | [Official Site](https://www.openwall.com/john/) |
+| Hashcat         | Password cracker/recovery  | [Official Site](https://hashcat.net/hashcat/)   |
 
 #### Dictionary attacks
 
@@ -136,8 +125,8 @@ Common vulnerability in PHP that fakes hash "collisions" where the == operator f
 
 #### Esoteric Languages
 
-| Name | Description | Usage |
-| --- | --- | --- |
+| Name          | Description                                            | Usage                       |
+| ------------- | ------------------------------------------------------ | --------------------------- |
 | Try It Online | Online interpreter that has tons of esoteric languages | [tio.run](https://tio.run/) |
 
 ##### Piet
@@ -148,12 +137,22 @@ A graphical programming language in which programs look like abstract paintings.
 
 ### Forensics
 
-| Name | Description | Usage |
-| --- | --- | --- |
-| binvis.io | Visual analysis of binary files | [binvis.io](http://binvis.io/#/) |
-| binwalk | Analyzing, reverse engineering, and extracting firmware images | [Github](https://github.com/ReFirmLabs/binwalk) |
-| TestDisk | Data recovery software, useful for `.img` or `.dd` files | [Official Site](https://www.cgsecurity.org/wiki/TestDisk) |
-| FotoForensics | Forensic analysis on images | [Website](http://fotoforensics.com/)
+| Name      | Description                                                    | Usage                                                     |
+| --------- | -------------------------------------------------------------- | --------------------------------------------------------- |
+| binvis.io | Visual analysis of binary files                                | [binvis.io](http://binvis.io/#/)                          |
+| binwalk   | Analyzing, reverse engineering, and extracting firmware images | [Github](https://github.com/ReFirmLabs/binwalk)           |
+| TestDisk  | Data recovery software, useful for `.img` or `.dd` files       | [Official Site](https://www.cgsecurity.org/wiki/TestDisk) |
+
+#### Steganography
+
+| Name                 | Description                                             | Usage                                                           |
+| -------------------- | ------------------------------------------------------- | --------------------------------------------------------------- |
+| steghide             | Hide and extract data from image and audio files        | [SourceForge](http://steghide.sourceforge.net/)                 |
+| StegCracker          | Brute-force utility to uncover hidden data inside files | [Github](https://github.com/Paradoxis/StegCracker)              |
+| stegsolve.jar        | View through different renditions of an image           | [Direct Download](http://www.caesum.com/handbook/Stegsolve.jar) |
+| OpenStego            | Hiding data and invisible file watermarking             | [Official Site](https://www.openstego.com/)                     |
+| Steganography Online | Message decoding service for low-hanging-fruits         | [Website](http://stylesuxx.github.io/steganography/)            |
+| Forensically         | Set of free tools for digital image forensics           | [Website](https://29a.ch/photo-forensics)                       |
 
 #### Magic numbers
 
@@ -164,8 +163,8 @@ The starting values that identify a file format. These are often crucial for pro
 
 ### Cryptography
 
-| Name | Description | Usage |
-| --- | --- | --- |
+| Name   | Description                                                        | Usage                                      |
+| ------ | ------------------------------------------------------------------ | ------------------------------------------ |
 | Ciphey | Decrypt keys and ciphers automatically, without knowing the cipher | [Github](https://github.com/Ciphey/Ciphey) |
 
 #### Caesar Cipher
@@ -197,6 +196,6 @@ Substitution cipher is a method of encrypting by which units of plaintext are re
 
 #### RSA
 
-| Name | Description | Usage |
-| --- | --- | --- |
+| Name       | Description            | Usage                                            |
+| ---------- | ---------------------- | ------------------------------------------------ |
 | RsaCtfTool | RSA multi attacks tool | [Github](https://github.com/Ganapati/RsaCtfTool) |
