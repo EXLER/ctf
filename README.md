@@ -9,7 +9,8 @@
 
 ## Tools
 
-[Katana](https://github.com/JohnHammond/katana) - Automatic CTF Challenge Solver
+* [Katana](https://github.com/JohnHammond/katana) - Automatic CTF Challenge Solver
+* [pyWhat](https://github.com/bee-san/pyWhat) - Identify anything
 
 ### Recon
 
